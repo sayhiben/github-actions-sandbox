@@ -7,7 +7,7 @@ permissions:
   actions: write
 
 jobs:
-  dispatcher:
+  initial-job:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Dispatch

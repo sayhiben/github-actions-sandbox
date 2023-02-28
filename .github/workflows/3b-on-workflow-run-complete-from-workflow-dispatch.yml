@@ -8,7 +8,5 @@ on:
 jobs:
   post-dispatch:
     runs-on: ubuntu-latest
-    env:
-      EVENT: "${{ github.event }}"
     steps:
-      - run: echo $EVENT
+      - run: echo "Dispatched workflow completed!"

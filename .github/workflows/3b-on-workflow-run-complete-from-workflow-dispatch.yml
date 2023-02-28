@@ -1,9 +1,9 @@
+name: '3b'
+
 on:
   workflow_run:
-    workflows:
-      - 2-on-workflow-dispatch
-    types:
-      - completed
+    workflows: ['2']
+    types: [completed]
 
 jobs:
   post-dispatch:

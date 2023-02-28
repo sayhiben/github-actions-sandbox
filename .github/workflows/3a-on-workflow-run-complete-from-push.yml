@@ -1,9 +1,9 @@
+name: '3a'
+
 on:
   workflow_run:
-    workflows:
-      - 1-on-push
-    types:
-      - completed
+    workflows: ['1']
+    types: [completed]
 
 jobs:
   post-push:

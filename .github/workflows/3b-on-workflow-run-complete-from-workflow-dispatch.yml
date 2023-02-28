@@ -1,9 +1,7 @@
-name: Workflow run complete
-
 on:
   workflow_run:
     workflows:
-      - Dispatched
+      - 2-on-workflow-dispatch.yml
     types:
       - completed
 

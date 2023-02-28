@@ -1,7 +1,7 @@
 on:
   workflow_run:
     workflows:
-      - 1-on-push.yml
+      - 1-on-push
     types:
       - completed
 

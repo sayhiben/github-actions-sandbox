@@ -1,5 +1,3 @@
-name: Dispatched
-
 on: workflow_dispatch
 
 jobs:

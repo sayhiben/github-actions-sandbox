@@ -6,7 +6,7 @@ on:
       - completed
 
 jobs:
-  hello-world:
+  post-dispatch:
     runs-on: ubuntu-latest
     env:
       EVENT: ${{ github.event }}

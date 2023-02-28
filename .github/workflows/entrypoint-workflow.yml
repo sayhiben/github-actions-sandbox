@@ -3,6 +3,9 @@ name: Entrypoint
 on:
   push:
 
+permissions:
+  actions: write
+
 jobs:
   dispatcher:
     runs-on: ubuntu-latest

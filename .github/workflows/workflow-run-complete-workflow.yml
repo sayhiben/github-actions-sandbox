@@ -1,0 +1,16 @@
+name: Workflow run complete
+
+on:
+  workflow_run:
+    workflows:
+      - Dispatched
+    types:
+      - completed
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    env:
+      EVENT: ${{ github.event }}
+    steps:
+      - run: echo $EVENT
